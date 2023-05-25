@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Root from '../layout/Root'
-import ProductsBox, { productsLoader } from "../components/ProductsBox"
+// import ProductsBox, { productsLoader } from "../components/ProductsBox"
+import Home, { productsLoader } from '../pages/Home'
 import ProductDetail, { productLoader } from '../pages/ProductDetail'
 import About from '../pages/About'
 
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <ProductsBox />,
+        element: <Home />,
         loader: productsLoader,
       },
       {

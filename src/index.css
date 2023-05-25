@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 /* *************header************* */
 .header-layout1{
     display: flex;
@@ -47,7 +47,7 @@
 
 /* *************Product Card************* */
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 
 * {
     box-sizing: border-box;

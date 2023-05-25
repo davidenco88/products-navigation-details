@@ -20,6 +20,7 @@ function ProductDetail() {
 
 export default ProductDetail
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const productLoader = async ({ params }) => {
   try {
     const { id } = params
